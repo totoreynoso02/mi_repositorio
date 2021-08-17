@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,WAAW,CAAC;EACR,SAAS,EAAE,IAAI;CAClB",
+    "sources": [
+        "../scss/components/breadcrumb.scss"
+    ],
+    "names": [],
+    "file": "breadcrumb.css"
+}
