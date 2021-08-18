@@ -8,10 +8,12 @@
     .search__container {
         background: var(--color-pink);
     
-        .fa-search:hover {
-            animation: pulse; /* referring directly to the animation's @keyframe declaration */
-            animation-duration: 0.5s; /* don't forget to set a duration! */
-            cursor: pointer;
+        .fa-search {
+            transition: transform .5s;
+
+            &:hover {
+                transform: scale(1.1);
+            }
         }
     }
 }
